@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/navgraph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/digimonList">
 
+    <fragment
+        android:id="@+id/digimonList"
+        android:name="br.com.lucas.digidex.ui.DigimonList"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_digimon_list">
+        <action
+            android:id="@+id/action_digimonList_to_digimonDetail"
+            app:destination="@id/digimonDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/digimonDetail"
+        android:name="br.com.lucas.digidex.ui.DigimonDetail"
+        android:label="@string/details_digimon"
+        tools:layout="@layout/fragment_digimon_detail">
+        <argument
+            android:name="digimon_name"
+            app:argType="string" />
+        <argument
+            android:name="pre"
+            app:argType="integer" />
+        <argument
+            android:name="post"
+            app:argType="integer" />
+    </fragment>
 </navigation>

@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/lucas/AndroidStudioProjects/DigiDex/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/DigiDex/app/src/main/res/layout/digimon_item.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/DigiDex/app/src/main/res/layout/fragment_digimon_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/DigiDex/app/src/main/res/layout/fragment_digimon_list.xml" value="0.5" />
       </map>
     </option>
   </component>
